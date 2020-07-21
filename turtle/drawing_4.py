@@ -1,6 +1,5 @@
 from turtle import * 
                    
-
 speed(0)
 
 pencolor('white')
@@ -8,13 +7,14 @@ pencolor('white')
 bgcolor('black')
 
 x = 0
-up()
 
+up()
 rt(45) 
 fd(90) 
 rt(135) 
 
 down()
+
 while x < 120:
     fd(200)     
     rt(61)
